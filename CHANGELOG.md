@@ -1,5 +1,9 @@
 # CloudFabric.Auth Changelog
 
+## 1.0.3
+
+- Upgrade to .net6
+
 ## 1.0.2
 
 - (bugfix): Validate all tenant access control groups instead of first one

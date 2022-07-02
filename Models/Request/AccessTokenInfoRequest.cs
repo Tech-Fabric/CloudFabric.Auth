@@ -1,4 +1,6 @@
-﻿namespace CloudFabric.Auth.Models.Request
+﻿using System.Text.Json.Serialization;
+
+namespace CloudFabric.Auth.Models.Request
 {
     public class TokenInfoRequest
     {
