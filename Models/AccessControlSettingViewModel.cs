@@ -1,6 +1,6 @@
-﻿using Fiber.Auth.Enums;
+﻿using CloudFabric.Auth.Enums;
 
-namespace Fiber.Auth.Models
+namespace CloudFabric.Auth.Models
 {
     public class AccessControlSettingViewModel
     {

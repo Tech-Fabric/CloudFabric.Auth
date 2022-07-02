@@ -1,4 +1,4 @@
-﻿namespace Fiber.Auth.Options
+﻿namespace CloudFabric.Auth.Options
 {
     public class AuthClientOptions
     {

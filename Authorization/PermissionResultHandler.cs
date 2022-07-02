@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authorization.Policy;
 using Microsoft.AspNetCore.Http;
 
-namespace Fiber.Auth
+namespace CloudFabric.Auth
 {
     public class PermissionResultHandler : IAuthorizationMiddlewareResultHandler
     {

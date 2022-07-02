@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Builder;
 
-namespace Fiber.Auth.Middleware
+namespace CloudFabric.Auth.Middleware
 {
     public static class MiddlewareExtensions
     {
-        public static IApplicationBuilder UseFiberJwtValidationMiddleware(
+        public static IApplicationBuilder UseCloudFabricJwtValidationMiddleware(
             this IApplicationBuilder builder
         )
         {
-            return builder.UseMiddleware<FiberJwtValidationMiddleware>();
+            return builder.UseMiddleware<CloudFabricJwtValidationMiddleware>();
         }
     }
 }

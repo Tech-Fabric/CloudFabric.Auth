@@ -1,12 +1,14 @@
-﻿namespace Fiber.Auth.Models.Request
+﻿namespace CloudFabric.Auth.Models.Request
 {
     public class TokenInfoRequest
     {
         /// <summary>
         /// 'access_token' or 'refresh_token'
         /// </summary>
-        public string token_type_hint { get; set; }
+        [JsonPropertyName("token_type_hint")]
+        public string TokenTypeHint { get; set; }
         
-        public string token { get; set; }
+        [JsonPropertyName("token")]
+        public string Token { get; set; }
     }
 }

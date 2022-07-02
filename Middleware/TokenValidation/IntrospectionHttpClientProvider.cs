@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net.Http;
 
-namespace Fiber.Auth.Middleware
+namespace CloudFabric.Auth.Middleware
 {
     public class IntrospectionHttpClientProvider
     {
@@ -22,7 +22,7 @@ namespace Fiber.Auth.Middleware
         {
             if (_httpClientFactory != null)
             {
-                return _httpClientFactory.CreateClient("FiberJwtValidationMiddleware-IntrospectionClient");
+                return _httpClientFactory.CreateClient("CloudFabricJwtValidationMiddleware-IntrospectionClient");
             }
             
             if (_httpClientFactoryFunc != null)

@@ -6,19 +6,19 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Fiber.Auth.Models;
-using Fiber.Auth.Options;
+using CloudFabric.Auth.Models;
+using CloudFabric.Auth.Options;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
 
-namespace Fiber.Auth.Middleware
+namespace CloudFabric.Auth.Middleware
 {
-    public class FiberJwtValidationMiddleware
+    public class CloudFabricJwtValidationMiddleware
     {
         private readonly RequestDelegate _next;
 
-        public FiberJwtValidationMiddleware(RequestDelegate next)
+        public CloudFabricJwtValidationMiddleware(RequestDelegate next)
         {
             _next = next;
         }

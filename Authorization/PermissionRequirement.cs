@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 
-namespace Fiber.Auth
+namespace CloudFabric.Auth
 {
     public class PermissionRequirement : IAuthorizationRequirement
     {

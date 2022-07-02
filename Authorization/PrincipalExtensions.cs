@@ -1,5 +1,5 @@
-﻿using Fiber.Auth.Enums;
-using Fiber.Auth.Models;
+﻿using CloudFabric.Auth.Enums;
+using CloudFabric.Auth.Models;
 
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Security.Principal;
 
-namespace Fiber.Auth
+namespace CloudFabric.Auth
 {
     public static class PrincipalExtensions
     {

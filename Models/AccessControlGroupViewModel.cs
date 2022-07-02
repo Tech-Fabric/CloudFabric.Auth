@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Fiber.Auth.Models
+namespace CloudFabric.Auth.Models
 {
     public class AccessControlGroupViewModel
     {

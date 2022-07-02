@@ -3,7 +3,7 @@ using Microsoft.Extensions.Options;
 
 using System.Threading.Tasks;
 
-namespace Fiber.Auth
+namespace CloudFabric.Auth
 {
     public class PermissionAuthorizationPolicyProvider : DefaultAuthorizationPolicyProvider
     {

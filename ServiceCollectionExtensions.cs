@@ -1,5 +1,5 @@
-﻿using Fiber.Auth.Middleware;
-using Fiber.Auth.Options;
+﻿using CloudFabric.Auth.Middleware;
+using CloudFabric.Auth.Options;
 
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
@@ -11,7 +11,7 @@ using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 
-namespace Fiber.Auth
+namespace CloudFabric.Auth
 {
     public static class ServiceCollectionExtensions
     {
@@ -21,7 +21,7 @@ namespace Fiber.Auth
         /// <param name="services"></param>
         /// <param name="authClientOptions"></param>
         /// <returns></returns>
-        public static IServiceCollection AddFiberAuth(
+        public static IServiceCollection AddCloudFabricAuth(
             this IServiceCollection services,
             IConfigurationSection authClientOptions
         )

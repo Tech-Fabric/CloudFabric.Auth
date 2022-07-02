@@ -1,5 +1,5 @@
-﻿using Fiber.Auth.Enums;
-using Fiber.Auth.Models;
+﻿using CloudFabric.Auth.Enums;
+using CloudFabric.Auth.Models;
 
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -10,7 +10,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 
-namespace Fiber.Auth
+namespace CloudFabric.Auth
 {
     public class PermissionHandler : AuthorizationHandler<PermissionRequirement>
     {

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Fiber.Auth.Models;
+using CloudFabric.Auth.Models;
 
-namespace Fiber.Auth
+namespace CloudFabric.Auth
 {
     public class ClaimsHelper
     {

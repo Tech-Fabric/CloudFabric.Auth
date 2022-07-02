@@ -1,4 +1,4 @@
-﻿namespace Fiber.Auth.Enums
+﻿namespace CloudFabric.Auth.Enums
 {
     public enum AccessControlRuleEnum
     {

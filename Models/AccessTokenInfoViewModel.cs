@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Fiber.Auth.Models
+namespace CloudFabric.Auth.Models
 {
     public class AccessTokenInfoViewModel
     {

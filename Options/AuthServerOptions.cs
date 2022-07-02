@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Fiber.Auth.Options
+namespace CloudFabric.Auth.Options
 {
     public class AuthClient
     {

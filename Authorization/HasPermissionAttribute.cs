@@ -2,7 +2,7 @@
 
 using System;
 
-namespace Fiber.Auth
+namespace CloudFabric.Auth
 {
     [AttributeUsage(AttributeTargets.Method | AttributeTargets.Class, Inherited = false)]
     public class HasPermissionAttribute : AuthorizeAttribute
