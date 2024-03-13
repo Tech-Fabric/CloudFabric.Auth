@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31717.71
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFabric.Auth", "CloudFabric.Auth.csproj", "{55AB88B0-1446-45D9-B347-1B74260C15C7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFabric.Auth", "CloudFabric.Auth\CloudFabric.Auth.csproj", "{A876E3A3-2815-41C7-A7F8-B2005736EAFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFabric.Auth.Tests", "CloudFabric.Auth.Tests\CloudFabric.Auth.Tests.csproj", "{76CE2B15-9111-479E-BB63-E7A3EBC057DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,14 @@ Global
 		{55AB88B0-1446-45D9-B347-1B74260C15C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55AB88B0-1446-45D9-B347-1B74260C15C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55AB88B0-1446-45D9-B347-1B74260C15C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A876E3A3-2815-41C7-A7F8-B2005736EAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A876E3A3-2815-41C7-A7F8-B2005736EAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A876E3A3-2815-41C7-A7F8-B2005736EAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A876E3A3-2815-41C7-A7F8-B2005736EAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76CE2B15-9111-479E-BB63-E7A3EBC057DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76CE2B15-9111-479E-BB63-E7A3EBC057DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76CE2B15-9111-479E-BB63-E7A3EBC057DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76CE2B15-9111-479E-BB63-E7A3EBC057DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
